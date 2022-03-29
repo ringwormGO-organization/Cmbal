@@ -1,0 +1,3 @@
+varfn name = "john doe";
+
+print(name);

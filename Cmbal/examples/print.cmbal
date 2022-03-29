@@ -1,0 +1,4 @@
+varfn name = "john doe";
+varfn othername = "sarah";
+print(name, othername);
+
