@@ -114,7 +114,7 @@ AST_T* visitor_visit_variable(visitor_T* visitor, AST_T* node)
 
 AST_T* visitor_visit_function_call(visitor_T* visitor, AST_T* node)
 {
-    if (strcmp(node->function_call_name, "print") == 0)
+    if (strcmp(node->function_call_name, "writeln") == 0)
     {
         return builtin_function_print(visitor, node->function_call_arguments, node->function_call_arguments_size);
     }
