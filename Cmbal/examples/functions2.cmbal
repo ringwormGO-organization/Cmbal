@@ -1,7 +1,7 @@
 function dosomething(x, y)
 {
-    print(x);
-    print(y);
+    writeln(x);
+    writeln(y);
 };
 
 dosomething("hello", "world");
@@ -9,7 +9,7 @@ dosomething("hello", "world");
 
 function sayyourname(name)
 {
-    print(name);
+    writeln(name);
 };
 
 sayyourname("john doe");

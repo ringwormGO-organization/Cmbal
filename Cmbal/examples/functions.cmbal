@@ -1,6 +1,6 @@
 function dosomething()
 {
-    print("This is our function calling!");
+    writeln("This is our function calling!");
 };
 
 dosomething();
