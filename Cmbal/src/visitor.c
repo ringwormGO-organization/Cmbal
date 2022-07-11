@@ -1,5 +1,6 @@
 #include "include/visitor.h"
 #include "include/scope.h"
+#include "include/helper.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -44,7 +45,7 @@ static AST_T* builtin_function_clear(visitor_T* visitor, AST_T** args, int args_
 
         switch (visited_ast->type)
         {
-            case AST_NOOP: system("clear"); break;
+            case AST_NOOP: console_clear(); break;
             default: printf("%p\n", visited_ast); break;
         }
     }
