@@ -1,7 +1,7 @@
 #include "include/io.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "include/helper.h"
 
 char* get_file_contents(const char* filepath)
 {
@@ -25,6 +25,6 @@ char* get_file_contents(const char* filepath)
         return buffer;
     }
 
-    printf("Error reading file %s\n", filepath);
+    PRINT("Error reading file %s\n", filepath);
     exit(2);
 }
