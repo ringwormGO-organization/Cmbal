@@ -1,4 +1,4 @@
-function dosomething()
+function dosomething(x)
 {
     writeln("This is our function calling!");
 };
@@ -11,4 +11,3 @@ dosomething();
 dosomething();
 dosomething();
 
-yo();
